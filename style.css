@@ -7,7 +7,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    background: linear-gradient(270deg, #90c5f0, #4068bd);
+    background: linear-gradient(135deg, #8a8d91, #ffffff, #727d86);
 }
 
 .main-container{
