@@ -12,7 +12,7 @@
 
     // elementos das seções
     const link_element = document.querySelectorAll('.links-element');
-    const blog_element = document.querySelectorAll('.blog-element');
+    const blog_element = document.querySelectorAll('.service-element');
 
     // leitor de eventos nos botões
     btn_links.addEventListener('click', () => {
@@ -64,7 +64,7 @@
             link_element[i].style.display = 'flex';
         }
     }
-    
+
     function AddElementesBlog(){
         for (let i = 0; i < blog_element.length; i++) {
             blog_element[i].style.display = 'flex';
